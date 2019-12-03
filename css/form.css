@@ -28,8 +28,7 @@ body::before {
         rgba(136, 136, 206, 0.7)
       ),
       url(https://miro.medium.com/max/2000/0*9bMoexBLQr7eh5tD);
-    background-size: cover;
-    background-repeat: no-repeat;
+    
     background-position: center;
   }
 h1 {
@@ -119,12 +118,12 @@ form {
     background-clip: padding-box;
     border: 1px solid #ced4da;
     border-radius: 0.25rem;
-    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    
   }
   .form-control:focus {
     border-color: #80bdff;
     outline: 0;
-    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+   
   }
   .input-radio,
   .input-checkbox {
